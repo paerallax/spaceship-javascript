@@ -24,3 +24,6 @@ typeof sym // symbol
 
 '1' === true // false
 '0' === false // false
+
+null == undefined // true
+null === undefined // false

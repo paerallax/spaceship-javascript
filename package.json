@@ -4,7 +4,7 @@
   "description": "Educational content for JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha src/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/paerallax/spaceship-javascript#readme",
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.0.0"
+    "mocha": "^5.0.0",
+    "prettier": "^1.10.2"
   }
 }
