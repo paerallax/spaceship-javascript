@@ -33,7 +33,7 @@ describe('0', function() {
 
 describe('0', function() {
   it(`0 as a number is equal to the boolean true due to type coercion`, function() {
-    assert.Equal(0, true)
+    assert.equal(0, true)
   })
 })
 
