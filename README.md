@@ -31,7 +31,7 @@ const assert = require('chai').assert
 
 Then we see a bunch of `describe` blocks, starting from line 4. In simple terms you give it a string which is an expression or statement or just something in JavaScript that you want to describe. After that you pass to the `it` block (line 5) the description of above-mentioned expression/statement/etc., in plain English. Now, this all is already done for you, BUT the descriptions are misleading. Okay, they're not misleading, they're straight up incorrect (: 
 Let's look at the one on line 6:
-(You need not worry about unfamiliar jargon or syntax of requiring a library, writing test blocks used here as it's not relevant to our exercies as of now. What's relevant is the code on lines 6, 12, 18 and so on: **the assertions**. 
+(You need not worry about unfamiliar jargon or syntax of requiring a library, writing test blocks used here as it's not relevant to our exercies as of now). What's relevant is the code on lines 6, 12, 18 and so on: **the assertions**. 
 
 ``` javascript
 assert.strictEqual(typeof null, 'null')
@@ -49,7 +49,7 @@ This is not correct. `typeof null` is something else (hint: historical reasons).
 $ npm run test
 ```
 
-It should return a error log saying that all 7 tests fail. That is correct behavior, as all tests indeed contain a mistake. Your task it to change the arguments or method of comparison on assertions to make it correct.
+It should return an error log saying that all 7 tests fail. That is correct behavior, as all tests indeed contain a mistake. Your task it to change the arguments or method of comparison on assertions to make it correct.
 
 Before going further, we should make the taxonomy clear:
 
