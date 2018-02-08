@@ -56,6 +56,7 @@ Before going further, we should make the taxonomy clear:
 ``` 
 strictEqual stands for (===)
 equal stands for (==)
+notEqual stands for (!=)
 ```
 
 Considering this, let's solve one of these to get a grasp of how you can approach this. The last test says (on line `41`):
