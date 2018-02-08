@@ -5,7 +5,17 @@ Educational content for JavaScript
 Clonse this repository to your local machine:
 
 ``` bash 
-git clone https://github.com/paerallax/spaceship-javascript.git
+$ git clone https://github.com/paerallax/spaceship-javascript.git
+```
+
+Enter it:
+``` bash
+$ cd spaceship-javascript
+```
+
+And install dependencies:
+``` bash
+$ npm install
 ```
 
 Open it with an editor of your choice. I specifically haven't included any linters yet as they'd solve the tests for you (:
