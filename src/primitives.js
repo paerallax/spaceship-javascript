@@ -1,7 +1,7 @@
 typeof 'a' // string
 typeof 5 // number
 typeof undefined // undefined
-typeof boolean // boolean
+typeof false // boolean
 typeof null // object, inconsistency
 
 const f = x => x
