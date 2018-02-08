@@ -12,7 +12,7 @@ Open it with an editor of your choice. I specifically haven't included any linte
 
 
 ## Goal
-In the `src` directory there are 2 files: `primitives.js` and `primitives.spec.js`. The first one is just a reminder of how types coerce and what `typeof` returns on each primitive. The fun happens in `primitives.spec.js`.
+In the `src` directory there are 2 files: `primitives.js` and `primitives.spec.js`. The first one is just a reminder of how types coerce and what `typeof` returns on each primitive (try to not look at this file at first :) ). The fun happens in `primitives.spec.js`.
 On the first 2 lines, we're importing a testing framework and an assertion library: 
 ``` javascript
 const mocha = require('mocha')
