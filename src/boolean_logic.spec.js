@@ -2,7 +2,7 @@ const mocha = require('mocha');
 const assert = require('chai').assert;
 
 const {
-  isEven, 
+  isEven,
   weekDay,
   ageGroup,
 } = require('./boolean_logic');

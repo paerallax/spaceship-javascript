@@ -4,7 +4,8 @@
   "description": "Educational content for JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "mocha src/*.spec.js"
+    "test:primitives": "mocha src/primitives.spec.js",
+    "test:boolean": "mocha src/boolean_logic.spec.js"
   },
   "repository": {
     "type": "git",

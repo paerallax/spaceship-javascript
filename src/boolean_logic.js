@@ -31,9 +31,9 @@ const ageGroup = (age) => {
     TODO ::
     Write a function that will determine the age group given the age.
     These are the ranges.
-      infant (bigger that 0 and smallern than 1 year old) 
+      infant (bigger that 0 and smallern than 1 year old)
       kid (from 1 to 10 years)
-      teenager (from 10 to 19 years) 
+      teenager (from 10 to 19 years)
       adult (between 19 to 60 years)
       old person(60 to 120 years)
       dead (more than 120)
@@ -41,7 +41,7 @@ const ageGroup = (age) => {
 }
 
 module.exports = {
-  isEven, 
+  isEven,
   weekDay,
   ageGroup,
 };
