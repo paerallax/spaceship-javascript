@@ -23,31 +23,31 @@ describe('isEven', function() {
 
 describe('ageGroup', function() {
   it('should return "infant" if the age is between 0 and 1', function() {
-    assert.strictEqual(isEven(0), 'infant');
+    assert.strictEqual(ageGroup(0), 'infant');
   });
 
   it('should return "kid" if the age is between 1 and 10', function() {
-    assert.strictEqual(isEven(6), 'kid');
+    assert.strictEqual(ageGroup(6), 'kid');
   });
 
   it('should return "teenager" if the age is between 10 and 19', function() {
-    assert.strictEqual(isEven(13), 'teenager');
+    assert.strictEqual(ageGroup(13), 'teenager');
   });
 
   it('should return "adult" if the age is between 19 and 60', function() {
-    assert.strictEqual(isEven(35), 'adult');
+    assert.strictEqual(ageGroup(35), 'adult');
   });
 
   it('should return "old" if the age is between 60 and 120', function() {
-    assert.strictEqual(isEven(69), 'old');
+    assert.strictEqual(ageGroup(69), 'old');
   });
 
   it('should return "dead" if the age is bigger then 120', function() {
-    assert.strictEqual(isEven(135), 'dead');
+    assert.strictEqual(ageGroup(135), 'dead');
   });
 
   it('should return "error" if the age is not between 0 and 120 or the type of age is not a number', function() {
-    assert.strictEqual(isEven("error"), 'error');
+    assert.strictEqual(ageGroup("error"), 'error');
   });
 });
 
