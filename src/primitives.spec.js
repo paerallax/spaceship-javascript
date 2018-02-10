@@ -1,3 +1,4 @@
+/*
 const mocha = require('mocha')
 const assert = require('chai').assert
 
@@ -42,3 +43,4 @@ describe('0', function() {
     assert.strictEqual(0, false)
   })
 })
+*/
