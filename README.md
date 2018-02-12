@@ -5,7 +5,7 @@ Educational content for JavaScript
 Clone this repository to your local machine:
 
 ``` bash 
-$ git clone https://github.com/paerallax/spaceship-javascript.git
+$ git clone https://github.com/iteratehackerspace/spaceship-javascript.git
 ```
 
 Enter it:
