@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test:primitives": "mocha src/primitives.spec.js",
-    "test:boolean": "mocha src/boolean_logic.spec.js"
+    "test:boolean": "mocha src/boolean_logic.spec.js",
+    "test:loops": "mocha src/loops.spec.js"
   },
   "repository": {
     "type": "git",
