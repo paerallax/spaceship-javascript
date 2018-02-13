@@ -91,7 +91,13 @@ This is all there is to know. If you're confused about anything, get stuck or ne
 
 To run loops tasks, you have to:
 1. open terminal
-2. go to `spaceship-javascript` directory
-3. do `npm install`
-4. do `atom src/loop.js` or `code src/loop.js` or open the file `src/loop.js` with any other editor
-5. read the task, work on that file and then run `npm run test:loops` to check your work
+2. do `git clone https://github.com/iteratehackerspace/spaceship-javascript`
+3. go to `spaceship-javascript` directory
+4. do `npm install`
+5. do `atom src/loop.js` or `code src/loop.js` or open the file `src/loop.js` with any other editor
+6. read the task, work on that file and then run `npm run test:loops` to check your work
+
+If you already have the directory:
+1. do `git fetch origin master`
+2. do `git rebase origin/master`
+3. go to the step 5 in the previous steps :D 
