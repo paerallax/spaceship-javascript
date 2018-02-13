@@ -38,7 +38,6 @@ describe('factorial', function() {
 describe('sumOfOddNumbers', function() {
   it('should return sum of odd number from 0 to n', function() {
     assert.strictEqual(sumOfOddNumbers(10), 25);
-    assert.strictEqual(sumOfOddNumbers(-10), -25);
     assert.strictEqual(sumOfOddNumbers(15), 64);
     assert.strictEqual(sumOfOddNumbers(0), 0);
   });
@@ -53,7 +52,7 @@ describe('sumOfOddNumbers', function() {
 
 describe('countNumberOfDigits', function() {
   it('should return the number of digits in n', function() {
-    assert.strictEqual(countNumberOfDigits(0), 0);
+    assert.strictEqual(countNumberOfDigits(0), 1);
     assert.strictEqual(countNumberOfDigits(123), 3);
     assert.strictEqual(countNumberOfDigits(15323), 5);
     assert.strictEqual(countNumberOfDigits(-153), 3);
