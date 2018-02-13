@@ -85,3 +85,13 @@ $ npm run test
 We should get 6 errored and 1 passed test, the one test that we just corrected. 
 
 This is all there is to know. If you're confused about anything, get stuck or need explanation, please don't hesitate to ask one of the people around you and/or the speakers (: 
+
+
+## run loops tasks
+
+To run loops tasks, you have to:
+1. open terminal
+2. go to `spaceship-javascript` directory
+3. do `npm install`
+4. do `atom src/loop.js` or `code src/loop.js` or open the file `src/loop.js` with any other editor
+5. read the task, work on that file and then run `npm run test:loops` to check your work
