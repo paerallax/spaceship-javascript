@@ -81,11 +81,11 @@ describe('arrayIntoObject', function() {
   it('should return object with 2 properties: moreThan10 and lessThan10. Both are array of numbers', function() {
     assert.deepEqual(arrayIntoObject([1, 2, 10, 15, 20, 9]), {
       moreThan10: [15, 20],
-      lessThan10: [1, 2, 10, 9]
+      lessThan10: [1, 2, 9]
     });
     assert.deepEqual(arrayIntoObject([-10, 54, -5, 10, 15, 20, 3]), {
       moreThan10: [54, 15, 20],
-      lessThan10: [-10, -5, 10, 3]
+      lessThan10: [-10, -5, 3]
     });
     assert.deepEqual(arrayIntoObject([-10, 0, 2, -214, 9, 2, -123]), {
       moreThan10: [],
