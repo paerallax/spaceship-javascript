@@ -7,7 +7,8 @@
     "test:primitives": "mocha src/primitives.spec.js",
     "test:boolean": "mocha src/boolean_logic.spec.js",
     "test:loops": "mocha src/loops.spec.js",
-    "test:arraysAndObjects": "mocha src/arraysAndObjects.spec.js"
+    "test:arraysAndObjects": "mocha src/arraysAndObjects.spec.js",
+    "test:recursion": "mocha src/recursion.spec.js"
   },
   "repository": {
     "type": "git",
