@@ -13,10 +13,10 @@ const {
 
 describe('power', function() {
   it('should return the number "num" in power of number "pow" (num ^ pow)', function() {
-    assert.deepEqual(power(5, 2), 25);
-    assert.deepEqual(power(2, 4), 16);
-    assert.deepEqual(power(2, 0), 1);
-    assert.deepEqual(power(1, 123), 1);
+    assert.strictEqual(power(5, 2), 25);
+    assert.strictEqual(power(2, 4), 16);
+    assert.strictEqual(power(2, 0), 1);
+    assert.strictEqual(power(1, 123), 1);
   });
 });
 
@@ -30,10 +30,10 @@ describe('findNumberInArray', function() {
 
 describe('range', function() {
   it('should return an array of numbers between numA and numB (the array should not include numA and numB)', function() {
-    assert.strictEqual(range(1, 5), [2, 3, 4]);
-    assert.strictEqual(range(-4, 3), [-3, -2, -1, 0, 1, 2]);
-    assert.strictEqual(range(1, 2), []);
-    assert.strictEqual(range(1, 1), []);
+    assert.deepEqual(range(1, 5), [2, 3, 4]);
+    assert.deepEqual(range(-4, 3), [-3, -2, -1, 0, 1, 2]);
+    assert.deepEqual(range(1, 2), []);
+    assert.deepEqual(range(1, 1), []);
   });
 });
 
