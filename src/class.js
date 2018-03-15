@@ -2,7 +2,7 @@
   Task 1
 
   Create a constructor function for a car.
-  That function should get 4 arguments:
+  That function should get 3 arguments:
   1) brand
   2) color
   3) type // (sedan, van, etc.)
