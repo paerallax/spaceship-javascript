@@ -31,12 +31,12 @@
 
 // 7. You should do fetch('https://ef937523.ngrok.io/twitter')
 // This is a promise which resolves to a response object
-// Then you should do JSON.parse(res). That is a promise that resolves to twitter object
+// Then you should do res.json(). That is a promise that resolves to twitter object
 // console.log that twitter object
 
 // 8. You should do fetch('https://ef937523.ngrok.io/images')
 // This is a promise which resolves to a response object
-// Then you should do JSON.parse(res). That is a promise that resolves to an object which contains an array
+// Then you should do res.json(). That is a promise that resolves to an object which contains an array
 // Then you should map through each element of the array (which is an image url) and do fetch that url
 // console.log the response of that fetch
 
