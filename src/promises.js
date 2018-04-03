@@ -25,16 +25,16 @@
 // in the next .then you should console.log the number that you get from the promise.
 
 /*
-  We run a server on https://ef937523.ngrok.io
+  We run a server on https://7fba7118.ngrok.io
   This part should be run in browser as it uses `fetch`
 */
 
-// 7. You should do fetch('https://ef937523.ngrok.io/twitter')
+// 7. You should do fetch('https://7fba7118.ngrok.io/twitter')
 // This is a promise which resolves to a response object
 // Then you should do res.json(). That is a promise that resolves to twitter object
 // console.log that twitter object
 
-// 8. You should do fetch('https://ef937523.ngrok.io/images')
+// 8. You should do fetch('https://7fba7118.ngrok.io/images')
 // This is a promise which resolves to a response object
 // Then you should do res.json(). That is a promise that resolves to an object which contains an array
 // Then you should map through each element of the array (which is an image url) and do fetch that url
